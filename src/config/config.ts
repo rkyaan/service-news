@@ -1,7 +1,7 @@
 export const config = {
-    DB_USER: process.env.DB_USER || "admin",
-    DB_HOST: process.env.DB_HOST || "34.50.71.68",
-    DB_NAME: process.env.DB_NAME || "main",
-    DB_PASSWORD: process.env.DB_PASSWORD || "letmeiinn",
-    DB_PORT: parseInt(process.env.DB_PORT || "5432", 10),
-  };
+  DB_USER: process.env.DB_USER,
+  DB_HOST: process.env.DB_HOST,
+  DB_NAME: process.env.DB_NAME,
+  DB_PASSWORD: process.env.DB_PASSWORD,
+  DB_PORT: parseInt(process.env.DB_PORT, 10),
+};
